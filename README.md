@@ -54,24 +54,26 @@ GestionDeInventario/
 
 ## Instrucciones de Instalacion
 
-    - **Clonar el Repositorio**
+- **Clonar el Repositorio**
 
-    git clone https://github.com/tu_usuario/gestion-de-inventario.git
-    cd gestion-de-inventario
+git clone https://github.com/tu_usuario/gestion-de-inventario.git
+cd gestion-de-inventario
 
-    - **Crear y Activar un Entorno Virtual**
+- **Crear y Activar un Entorno Virtual**
 
-    python -m venv venv
-    source venv/bin/activate    # Linux/Mac
-    venv\Scripts\activate       # Windows
+python -m venv venv
+source venv/bin/activate    # Linux/Mac
+venv\Scripts\activate       # Windows
 
-    - **Instalar Dependencias** 
+**Instalar Dependencias** 
 
-    pip install -r requirements.txt
+pip install -r requirements.txt
 
-    - **Ejecutar la Aplicación**
+- **Ejecutar la Aplicación**
 
-    python main.py
+python main.py
+
+---
 
 ## Uso del Sistema
 
