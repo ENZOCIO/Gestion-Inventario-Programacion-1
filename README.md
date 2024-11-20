@@ -2,11 +2,10 @@
 
 ## Sistema de Gestión de Inventario
 
-Este proyecto es un sistema de gestión de inventario desarrollado en Python. Incluye funcionalidades para registrar, gestionar y consultar productos, categorías, proveedores y bodegas, además de generar informes de stock. La interfaz gráfica está construida con `tkinter`.
+Este proyecto es un sistema de gestión de inventario desarrollado en Python. Incluye funcionalidades para registrar, gestionar y consultar productos, categorías, proveedores y bodegas, además de generar informes de stock. La interfaz gráfica está construida con `tkinter`
 
 
-
----
+--- 
 
 ## Características Principales
 
@@ -49,14 +48,70 @@ GestionDeInventario/
 ├── main.py               # Aplicación gráfica con tkinter
 ├── README.md             # Documentación del proyecto
 └── requirements.txt      # Dependencias del proyecto
+```
 
+--- 
 
-# Instrucciones de Instalacion
+## Instrucciones de Instalacion
 
     - **Clonar el Repositorio**
 
     git clone https://github.com/tu_usuario/gestion-de-inventario.git
     cd gestion-de-inventario
+
+    - **Crear y Activar un Entorno Virtual**
+
+    python -m venv venv
+    source venv/bin/activate    # Linux/Mac
+    venv\Scripts\activate       # Windows
+
+    - **Instalar Dependencias** 
+
+    pip install -r requirements.txt
+
+    - **Ejecutar la Aplicación**
+
+    python main.py
+
+## Uso del Sistema
+
+# Interfaz Gráfica
+
+- Ejecuta main.py para abrir la interfaz gráfica.
+- Usa las pestañas para gestionar productos, categorías, proveedores, bodegas e informes.
+
+# Gestión con Git Bash
+
+- Clonar el repositorio
+
+git clone https://github.com/tu_usuario/gestion-de-inventario.git
+
+- Crear un nuevo branch
+
+git checkout -b feature/nombre-del-feature
+
+- Agregar cambios
+
+git add .
+git commit -m "Descripción de los cambios"
+
+- Subir cambios al repositorio
+
+git push origin feature/nombre-del-feature
+
+---
+
+
+## Licencia
+
+**Este proyecto está licenciado bajo la MIT License. Consulta el archivo LICENSE para más información.**
+
+
+
+
+
+
+
 
 
 
