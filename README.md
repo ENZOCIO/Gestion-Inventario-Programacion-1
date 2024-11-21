@@ -44,8 +44,8 @@ GestionDeInventario/
 │   ├── inventario.py     # Clase Inventario
 │   ├── producto.py       # Clase Producto
 │   ├── proveedor.py      # Clase Proveedor
+    ├── main.py           # Interfaz del proyecto
 ├── tests/                # Tests unitarios con pytest
-├── main.py               # Aplicación gráfica con tkinter
 ├── README.md             # Documentación del proyecto
 └── requirements.txt      # Dependencias del proyecto
 ```
